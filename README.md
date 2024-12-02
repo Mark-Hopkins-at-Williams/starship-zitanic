@@ -33,7 +33,7 @@ The following data has been collected for most passengers:
 - ```PassengerId```: A unique Id for each passenger. Each Id takes the form ```gggg_pp``` where ```gggg``` indicates a group the passenger is travelling with and ```pp``` is their number within the group.
 - ```HomePlanet```: The planet the passenger departed from, typically their planet of permanent residence.
 - ```CryoSleep```: Indicates whether the passenger elected to be put into suspended animation for the duration of the voyage. Passengers in cryosleep are confined to their cabins.
-- ```Cabin```: The cabin number where the passenger is staying. Takes the form deck/num/side, where side can be either P for Port or S for Starboard.
+- ```Cabin```: The cabin number where the passenger is staying. Takes the form ```deck/num/side```, where ```side``` can be either ```P``` for Port or ```S``` for Starboard.
 - ```Destination```: The planet the passenger will be debarking to.
 - ```Age```: The age of the passenger.
 - ```VIP```: Whether the passenger has paid for special VIP service during the voyage.
@@ -47,7 +47,7 @@ The following data has been collected for most passengers:
 Some starter code is available in this repository:
 
 - ```explore.py```: gives you an entrypoint for analyzing and visualizing the data
-- ```features.py```: some starter code for creating a torch.nn.Dataset from the raw data
+- ```features.py```: some starter code for creating a ```torch.nn.Dataset``` from the raw data
 - ```train.py```: some simple logistic regression training code
 
 
