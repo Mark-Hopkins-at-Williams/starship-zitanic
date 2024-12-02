@@ -39,7 +39,7 @@ The following data has been collected for most passengers:
 - ```VIP```: Whether the passenger has paid for special VIP service during the voyage.
 - ```RoomService```, ```FoodCourt```, ```ShoppingMall```, ```Spa```, ```VRDeck```: Amount the passenger has billed at each of the Spaceship Titanic's many luxury amenities.
 - ```Name```: The first and last names of the passenger.
-- ```Transported```: Whether the passenger was transported to another dimension. This is the target, the column you are trying to predict.
+- ```Transported```: Whether the passenger was transported to another dimension. This is what you are trying to predict.
 
 
 ## Starter Code
@@ -60,4 +60,4 @@ Currently, running ```python train.py``` will create a baseline version of ```pr
 
 ## Note
 
-This challenge is derived from Kaggle's Spaceship Titanic competition. However, it is a custom-built edition for this class.
+This challenge is derived from Kaggle's Spaceship Titanic competition. However, it is a custom-built edition for this class, with several significant differences.
